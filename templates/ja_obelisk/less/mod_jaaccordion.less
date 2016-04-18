@@ -1,0 +1,66 @@
+/**
+ * $JA#COPYRIGHT$
+ */
+
+
+// VARIABLES & MIXINS
+// ------------------
+@import "vars.less"; // Modify this for custom colors, font-sizes, etc
+
+
+
+.ja-accordion ul.ja-accordion-containner li .ja-accordion-title {
+  background: @grayDark;
+  padding: (@T3globalPadding/2) @T3globalPadding;
+  cursor: pointer;
+  border-bottom: 1px solid lighten(@grayDark, 10%);
+
+  h3 {
+    background: url("@{T3ImagePath}/ico/collapse.png") no-repeat right center;
+    font-family: @headingsFontFamily;
+    font-size: @baseFontSize;
+    text-transform: uppercase;
+    line-height: @baseLineHeight;
+    color: @white;
+    margin: 0;
+    padding-right: @T3globalPadding + 2;
+    .text-overflow();
+  }
+}
+
+.ja-accordion ul.ja-accordion-containner li .ja-accordion-title.active {
+  #gradient > .vertical(lighten(@T3primaryColor, 10%), @T3primaryColor);
+  border-bottom: 0;
+  h3 {
+    background-image: url("@{T3ImagePath}/ico/expand.png");
+    background-repeat: no-repeat;
+    background-position:  right center;
+  }
+}
+
+.ja-accordion ul.ja-accordion-containner li div.ja-accordion-content {
+  background: @T3primaryColor;
+  color: @white;
+  padding: (@T3globalPadding/2) @T3globalPadding;
+
+  ul {
+    margin: 0;
+  }
+
+  li {
+    padding: (@T3globalPadding/2) 0;
+    list-style: none;
+    line-height: @baseLineHeight - 2px;
+    font-size: @T3smallFontSize;
+    border-top: 1px solid lighten(@T3primaryColor, 5%);
+    font-weight: bold;
+
+    &:last-child {
+      margin-bottom: (@T3globalMargin/2);
+    }
+  }
+
+  ul li, a {
+    color: @white;
+  }
+}

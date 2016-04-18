@@ -1,0 +1,149 @@
+/**
+ * $JA#COPYRIGHT$
+ */
+
+html[dir="rtl"] {
+
+   // MODULES
+   // -------------------------------------------
+
+   // SLideshow 
+   .ja-slide-right {
+      left: 0;
+      right: auto;
+      margin-right: auto;
+      margin-left: 0;
+   }
+
+   .ja-slide-thumbs-wrap.ja-vertical_right {
+	   left: 0 !important;
+	   right: auto !important;
+
+  	  .ja-slide-thumbs,
+  	  .ja-slide-thumbs-handles {
+  	    right: 0px !important;
+  		  left: auto !important;
+  	  }
+   }
+
+   .ja-slide-thumbs-wrap.ja-vertical_left {
+
+	  .ja-slide-thumbs,
+	  .ja-slide-thumbs-handles {
+  		right: 0 !important;
+  		left : auto !important;
+  	}
+
+   }
+
+   // SLideshow Lite
+   .ja-ss-btns .ja-ss-prev {    
+      background-position: 100% -60px;
+   }
+  #ja-like{
+  position: absolute;
+  top: 0px;
+  left: -5500px;
+  }
+   .ja-ss-btns .ja-ss-next {
+      background-position: 100% 0;
+   }
+
+   // Content SLider
+   .ja-contentslider-left {
+      background-position: right bottom;
+   }
+
+   .ja-contentslider-right {
+      background-position: right top;
+   }
+
+   .t3-sidebar .ja-contentslider-left {
+      background-position: right -80px;
+   }
+
+   .t3-sidebar .ja-contentslider-right {
+      background-position: right -20px;
+   }
+
+   // Accordion
+   .t3-module.highlight.top-movie .module-ct {
+    direction: ltr;
+
+    .custom.top-movie {
+      direction: rtl;
+    }
+   }
+
+
+   // EasyBlog
+   //---------
+   #ezblog-body #button-related a > span {
+    background-position: right -304px;
+   }
+
+   // K2
+   // ----------------------------------
+   div#k2Frontend table.k2FrontendToolbar {
+    float: left;
+   }
+
+  .icon-48-k2 {
+    padding-left: 0 !important;
+    padding-right: 120px !important;
+  }
+
+
+  .tagItemImageBlock,
+  .catItemImageBlock,
+  .userItemImageBlock,
+  .genericItemImageBlock {
+    direction: ltr;
+  }
+
+
+  button.mfp-arrow.mfp-arrow-left {
+    background-position: right bottom;
+  }
+
+  button.mfp-arrow.mfp-arrow-right {
+    background-position: right top;
+  }
+
+  // Joomla
+  // ----------------
+  .tip-wrap {
+    left: 0;
+    right: auto;
+  }
+
+}
+
+
+//
+// MOBILE
+// -------------------------------------------------------------
+@media (max-width: @navbarCollapseWidth) { 
+  .t3-header {
+    .head-login .ja-login li {
+      margin: 0 !important;
+      float: left;
+    }
+
+    .top-search {
+      left: 92px;
+    }
+  }
+
+  // Easyblog
+  //---------
+  #eblog-wrapper .list-pagination li:first-child span.ttu {
+    border-radius: 0 3px 3px 0;
+    -wekbit-border-radius: 0 3px 3px 0;
+  }
+
+  #comment-form .comment-form .comment-body .form-row .prm {
+    padding-left: 0 !important; 
+    padding-right: 0 !important;
+  }
+}

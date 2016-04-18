@@ -1,0 +1,30 @@
+
+
+#ja-bulletin ul li {
+  *zoom: 1;
+}
+#ja-bulletin ul li:before,
+#ja-bulletin ul li:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+#ja-bulletin ul li:after {
+  clear: both;
+}
+#ja-bulletin ul li span.number {
+  float: left;
+  background: #aaa;
+  color: #fff;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  margin-right: 10px;
+}
+#ja-bulletin ul li:first-child span.number,
+#ja-bulletin ul li:nth-child(2) span.number,
+#ja-bulletin ul li:nth-child(3) span.number {
+  background: #22a70c;
+}
+

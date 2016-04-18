@@ -1,0 +1,171 @@
+/**
+ * $JA#COPYRIGHT$
+ */
+
+
+// VARIABLES & MIXINS
+// ------------------
+@import "vars.less"; // Modify this for custom colors, font-sizes, etc
+
+
+
+ul.ja-login li {
+  a.register-switch,
+  a.login-switch {
+    .transition(none);
+    .border-radius(@borderRadiusLarge);
+
+  }
+}
+
+ul.ja-login li #ja-user-login, 
+ul.ja-login li #ja-user-register{
+  min-width: 220px;
+  padding: @T3globalPadding;
+  text-align: left;
+  left: auto;
+  right: 1px;
+  top: @T3globalMargin*1.5;
+  font-size: @T3smallFontSize;
+  list-style: none;
+  border: 0;
+
+  .btn, .button, button {
+    padding: (@T3globalMargin/3) (@T3globalMargin/2);
+    font-size: @T3smallFontSize;
+  } 
+
+  form#member-registration {
+    input {
+      background-color: @grayLighter;
+
+      &:hover, &:focus, &:active {
+        background-color: @white;
+        .box-shadow(none);
+      }
+    }
+  }
+
+  form {
+    margin: 0;
+
+    input{
+      font-size: @T3smallFontSize;
+    }
+
+    #modlgn-username,
+    #modlgn-passwd {
+      background-image: url("@{T3ImagePath}/ico/ico-login.png");
+      background-position: 5px center;
+      background-repeat: no-repeat;
+      background-color: @grayLighter;
+      padding-left: @T3globalPadding;
+      .transition(all .2s linear);
+
+      &:hover, &:focus, &:active {
+        background-color: @white;
+        .box-shadow(none);
+        background-image: url("@{T3ImagePath}/ico/ico-login.png");
+      }
+    }
+
+    #modlgn-passwd {
+       background-image: url("@{T3ImagePath}/ico/ico-password.png");
+
+      &:hover, &:focus, &:active {
+        background-color: @white;
+        .box-shadow(none);
+        background-image: url("@{T3ImagePath}/ico/ico-password.png");
+      }
+    }
+
+
+    em {
+      font-style: normal;
+      font-weight: normal;
+    }
+  }
+
+  .form-login-meta {
+    margin-top: @T3globalMargin/2;
+
+    p {
+      margin: 0;
+
+      a { 
+        color: @grayDark;
+
+        &:hover {
+          color: @T3primaryColor;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
+
+ul.ja-login li #ja-user-register {
+  min-width: 360px;
+}
+
+#login-form input[type="text"], 
+#login-form input[type="password"]{
+  width: 87%;
+}
+
+#member-registration input[type="text"],
+#member-registration input[type="password"],
+#member-registration input[type="email"]  {
+  width: 90%;
+}
+
+
+ul.ja-login #form-login-remember .inputbox {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+#login-form #ja-user-login form {
+  margin: 0;
+  padding: 0;
+}
+
+#login-form label,
+#member-registration label {
+  font-size: @T3smallFontSize;
+  margin: 0;
+  color: @grayDark;
+}
+
+.ja-login {
+  li.dropdown  {
+    .btn {
+      .border-radius(3px);
+    }
+    .dropdown-menu { 
+      background: @white;
+      min-width: 220px;
+      padding: @T3globalPadding;
+      text-align: left;
+      left: auto;
+      right: 1px;
+      top: @T3globalMargin*1.5;
+      font-size: @T3smallFontSize;
+      list-style: none;
+      border: 0;
+      .box-shadow(0 3px 3px rgba(0, 0, 0, 0.3));
+      .logout-button {
+        margin-top: @T3globalMargin/2;
+      }
+    }
+
+    &.open {
+      a.btn {
+        background: @white;
+        color: #444; 
+        text-shadow: none;
+      }
+    }
+  }
+} 
+

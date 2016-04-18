@@ -1,0 +1,215 @@
+/**
+ * $JA#COPYRIGHT$
+ */
+
+//
+// TABLET
+// ------------------------------------------------------
+@media (min-width: 768px) and (max-width: 1024px) {
+ .newsfeed-category {
+    .btn-toolbar {
+      .btn-group select {
+        height: 30px;
+        padding: 4px 6px;
+      }
+    }
+ }
+}
+
+
+
+// TABLET min-width: 768px and max-width: 979px
+// -------------------------------------------------------
+@media (min-width: 768px) and (max-width: 979px) {
+  .contact .contact-form .contact-name, 
+  .contact .contact-form .contact-email {
+    width: 100%;
+  }
+
+
+}
+
+//
+// MOBILE
+// -------------------------------------------------------------
+@media (max-width: 767px) {
+
+  //
+  // GENERIC ARTICLE STYLES
+  // -----------------------------------------------------------
+
+  // Article Images
+  // --------------
+  article img[align=left], .img_caption.left,
+  article img[align=right], .img_caption.right,
+  .img-fulltext-left, .img-fulltext-right {
+    float: none !important;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100% !important;
+  }
+
+  .items-leading .leading {
+    position: relative;
+    .span3.pull-left {
+      width: 100px;
+      position: absolute;
+      img {
+        margin-bottom: @T3globalMargin*0.75;
+      }
+    }
+    .row-fluid > .span9 {
+      margin-left: 120px !important; 
+      width: auto;
+      clear: none !important;
+    }
+
+    .article-aside {
+      position: relative;
+      .article-info.span9 {
+        margin-left: 0 !important;
+        width: 80%;
+      }
+      .article-action-icon {
+        position: absolute;
+        right: 0px;
+        top: 0;
+      }
+    }
+  }
+
+  .item-page {
+    padding-bottom: 20px;
+    .article-aside {
+      position: relative;
+      min-height: 20px;
+      margin-bottom: 5px;
+      clear: left;
+      .article-action-icon {
+        position: absolute;
+        right: 0px;
+        top: 0;
+      }
+    }
+
+    .item-image img {
+      margin-bottom: @T3globalMargin*0.75;
+    }
+
+    .pull-left .item-image,
+    .pull-right .item-image {
+      margin-right: 0;
+      margin-left: 0;
+    }
+  }
+  .content_rating {
+    img {
+      vertical-align: top;
+      margin-top: 4px;
+    }
+  }
+
+  .article-content .article-aside {
+    height: auto;
+    min-height: auto;
+  }
+
+  .article-aside {
+    .article-info,
+    .article-action-icon {
+      width: auto !important;
+    }
+  }
+  // Login 
+  .login-wrap {
+    width: auto;
+    .well .control-group {
+      width: 100%;
+      input[type="text"],
+      input[type="password"] {
+        width: 90%;
+      }
+    }
+
+    .other-links {
+      li {
+        display: block;
+        margin-right: 0;
+      }
+    }
+  }
+
+  // Newsfeeds 
+  .newsfeed-category {
+    .btn-toolbar {
+      input[type="text"] {
+        width: 120px;
+      }
+      select {
+        width: 90px;
+      }
+    }
+  }
+
+  .reset,
+  .remind {
+    .form-horizontal .form-actions {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+
+  .contact {
+    .thumbnail {
+      margin-bottom: @T3globalMargin/2;
+    }
+
+    .link-information {
+      margin-bottom: @T3globalMargin*0.75;
+    }
+
+    .contact-form .contact-name, 
+    .contact-form .contact-email {
+      width: 100%;
+    }
+  }
+
+  div.itemImageBlock {
+    .modal {
+      width: 95% !important;
+      min-width: 95% !important;
+    }
+    .modal-body {
+      width: 95% !important;
+      min-width: auto !important;
+    } 
+    div.itemVideoBlock div.itemVideoEmbedded iframe {
+      width: 100% !important; 
+      height: auto !important;
+    }
+
+    .jcarousel-skin-tango {
+      display: none !important;
+    }
+  }
+}
+
+
+//
+// MOBILE
+// -------------------------------------------------------------
+@media (max-width: 360px) {
+  .items-leading .leading .article-aside .article-info.span9 {
+    width: 60%;
+  }
+
+  div.itemImageBlock {
+    div.itemVideoBlock div.itemVideoEmbedded iframe {
+      width: 90% !important; 
+      height: auto !important;
+    }
+    div.itemVideoEmbedded {
+      width: 95% !important;
+    }
+  }
+}

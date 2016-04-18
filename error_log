@@ -1,0 +1,212 @@
+
+[29-Feb-2016 17:08:16 Europe/Helsinki] PHP Notice:  Trying to get property of non-object in /home/hoteltus/public_html/modules/mod_menu/helper.php on line 40
+[29-Feb-2016 17:08:16 Europe/Helsinki] PHP Notice:  Trying to get property of non-object in /home/hoteltus/public_html/modules/mod_menu/helper.php on line 45
+[29-Feb-2016 17:08:16 Europe/Helsinki] PHP Notice:  Trying to get property of non-object in /home/hoteltus/public_html/modules/mod_menu/mod_menu.php on line 18
+[29-Feb-2016 17:08:16 Europe/Helsinki] PHP Notice:  Trying to get property of non-object in /home/hoteltus/public_html/modules/mod_menu/mod_menu.php on line 19
+[29-Feb-2016 17:08:16 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[29-Feb-2016 17:08:16 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[29-Feb-2016 17:08:16 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[29-Feb-2016 17:08:16 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[29-Feb-2016 17:08:16 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 38
+[29-Feb-2016 17:08:16 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[29-Feb-2016 17:08:16 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 38
+[29-Feb-2016 17:08:16 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[29-Feb-2016 17:08:16 Europe/Helsinki] PHP Notice:  Trying to get property of non-object in /home/hoteltus/public_html/modules/mod_menu/helper.php on line 40
+[29-Feb-2016 17:08:16 Europe/Helsinki] PHP Notice:  Trying to get property of non-object in /home/hoteltus/public_html/modules/mod_menu/helper.php on line 45
+[29-Feb-2016 17:08:16 Europe/Helsinki] PHP Notice:  Trying to get property of non-object in /home/hoteltus/public_html/modules/mod_menu/mod_menu.php on line 18
+[29-Feb-2016 17:08:16 Europe/Helsinki] PHP Notice:  Trying to get property of non-object in /home/hoteltus/public_html/modules/mod_menu/mod_menu.php on line 19
+[29-Feb-2016 17:08:16 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[29-Feb-2016 17:08:16 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[29-Feb-2016 17:08:16 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[29-Feb-2016 17:08:16 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[29-Feb-2016 17:08:16 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[29-Feb-2016 17:08:16 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[29-Feb-2016 17:08:16 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[01-Mar-2016 11:19:54 Europe/Helsinki] PHP Notice:  Trying to get property of non-object in /home/hoteltus/public_html/modules/mod_menu/helper.php on line 40
+[01-Mar-2016 11:19:54 Europe/Helsinki] PHP Notice:  Trying to get property of non-object in /home/hoteltus/public_html/modules/mod_menu/helper.php on line 45
+[01-Mar-2016 11:19:54 Europe/Helsinki] PHP Notice:  Trying to get property of non-object in /home/hoteltus/public_html/modules/mod_menu/mod_menu.php on line 18
+[01-Mar-2016 11:19:54 Europe/Helsinki] PHP Notice:  Trying to get property of non-object in /home/hoteltus/public_html/modules/mod_menu/mod_menu.php on line 19
+[01-Mar-2016 11:19:54 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[01-Mar-2016 11:19:54 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[01-Mar-2016 11:19:54 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[01-Mar-2016 11:19:54 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[01-Mar-2016 11:19:54 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 38
+[01-Mar-2016 11:19:54 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[01-Mar-2016 11:19:54 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 38
+[01-Mar-2016 11:19:54 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[01-Mar-2016 11:19:54 Europe/Helsinki] PHP Notice:  Trying to get property of non-object in /home/hoteltus/public_html/modules/mod_menu/helper.php on line 40
+[01-Mar-2016 11:19:54 Europe/Helsinki] PHP Notice:  Trying to get property of non-object in /home/hoteltus/public_html/modules/mod_menu/helper.php on line 45
+[01-Mar-2016 11:19:54 Europe/Helsinki] PHP Notice:  Trying to get property of non-object in /home/hoteltus/public_html/modules/mod_menu/mod_menu.php on line 18
+[01-Mar-2016 11:19:54 Europe/Helsinki] PHP Notice:  Trying to get property of non-object in /home/hoteltus/public_html/modules/mod_menu/mod_menu.php on line 19
+[01-Mar-2016 11:19:54 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[01-Mar-2016 11:19:54 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[01-Mar-2016 11:19:54 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[01-Mar-2016 11:19:54 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[01-Mar-2016 11:19:54 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[01-Mar-2016 11:19:54 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[01-Mar-2016 11:19:54 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[01-Mar-2016 14:07:18 Europe/Helsinki] PHP Notice:  Trying to get property of non-object in /home/hoteltus/public_html/modules/mod_menu/helper.php on line 40
+[01-Mar-2016 14:07:18 Europe/Helsinki] PHP Notice:  Trying to get property of non-object in /home/hoteltus/public_html/modules/mod_menu/helper.php on line 45
+[01-Mar-2016 14:07:18 Europe/Helsinki] PHP Notice:  Trying to get property of non-object in /home/hoteltus/public_html/modules/mod_menu/mod_menu.php on line 18
+[01-Mar-2016 14:07:18 Europe/Helsinki] PHP Notice:  Trying to get property of non-object in /home/hoteltus/public_html/modules/mod_menu/mod_menu.php on line 19
+[01-Mar-2016 14:07:18 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[01-Mar-2016 14:07:18 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[01-Mar-2016 14:07:18 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[01-Mar-2016 14:07:18 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[01-Mar-2016 14:07:18 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 38
+[01-Mar-2016 14:07:18 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[01-Mar-2016 14:07:18 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 38
+[01-Mar-2016 14:07:18 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[01-Mar-2016 14:07:18 Europe/Helsinki] PHP Notice:  Trying to get property of non-object in /home/hoteltus/public_html/modules/mod_menu/helper.php on line 40
+[01-Mar-2016 14:07:18 Europe/Helsinki] PHP Notice:  Trying to get property of non-object in /home/hoteltus/public_html/modules/mod_menu/helper.php on line 45
+[01-Mar-2016 14:07:18 Europe/Helsinki] PHP Notice:  Trying to get property of non-object in /home/hoteltus/public_html/modules/mod_menu/mod_menu.php on line 18
+[01-Mar-2016 14:07:18 Europe/Helsinki] PHP Notice:  Trying to get property of non-object in /home/hoteltus/public_html/modules/mod_menu/mod_menu.php on line 19
+[01-Mar-2016 14:07:18 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[01-Mar-2016 14:07:18 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[01-Mar-2016 14:07:18 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[01-Mar-2016 14:07:18 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[01-Mar-2016 14:07:18 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[01-Mar-2016 14:07:18 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[01-Mar-2016 14:07:18 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[02-Mar-2016 02:23:23 Europe/Helsinki] PHP Notice:  Undefined index: names in /home/hoteltus/public_html/administrator/components/com_chronoforms/form_actions/email/email.php on line 155
+[02-Mar-2016 02:23:23 Europe/Helsinki] PHP Notice:  Undefined index: email in /home/hoteltus/public_html/administrator/components/com_chronoforms/form_actions/email/email.php on line 168
+[02-Mar-2016 10:59:57 Europe/Helsinki] PHP Notice:  Trying to get property of non-object in /home/hoteltus/public_html/modules/mod_menu/helper.php on line 40
+[02-Mar-2016 10:59:57 Europe/Helsinki] PHP Notice:  Trying to get property of non-object in /home/hoteltus/public_html/modules/mod_menu/helper.php on line 45
+[02-Mar-2016 10:59:57 Europe/Helsinki] PHP Notice:  Trying to get property of non-object in /home/hoteltus/public_html/modules/mod_menu/mod_menu.php on line 18
+[02-Mar-2016 10:59:57 Europe/Helsinki] PHP Notice:  Trying to get property of non-object in /home/hoteltus/public_html/modules/mod_menu/mod_menu.php on line 19
+[02-Mar-2016 10:59:57 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[02-Mar-2016 10:59:57 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[02-Mar-2016 10:59:57 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[02-Mar-2016 10:59:57 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[02-Mar-2016 10:59:57 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 38
+[02-Mar-2016 10:59:57 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[02-Mar-2016 10:59:57 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 38
+[02-Mar-2016 10:59:57 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[02-Mar-2016 10:59:57 Europe/Helsinki] PHP Notice:  Trying to get property of non-object in /home/hoteltus/public_html/modules/mod_menu/helper.php on line 40
+[02-Mar-2016 10:59:57 Europe/Helsinki] PHP Notice:  Trying to get property of non-object in /home/hoteltus/public_html/modules/mod_menu/helper.php on line 45
+[02-Mar-2016 10:59:57 Europe/Helsinki] PHP Notice:  Trying to get property of non-object in /home/hoteltus/public_html/modules/mod_menu/mod_menu.php on line 18
+[02-Mar-2016 10:59:57 Europe/Helsinki] PHP Notice:  Trying to get property of non-object in /home/hoteltus/public_html/modules/mod_menu/mod_menu.php on line 19
+[02-Mar-2016 10:59:57 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[02-Mar-2016 10:59:57 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[02-Mar-2016 10:59:57 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[02-Mar-2016 10:59:57 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[02-Mar-2016 10:59:57 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[02-Mar-2016 10:59:57 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[02-Mar-2016 10:59:57 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[03-Mar-2016 08:11:30 Europe/Helsinki] PHP Notice:  Trying to get property of non-object in /home/hoteltus/public_html/modules/mod_menu/helper.php on line 40
+[03-Mar-2016 08:11:30 Europe/Helsinki] PHP Notice:  Trying to get property of non-object in /home/hoteltus/public_html/modules/mod_menu/helper.php on line 45
+[03-Mar-2016 08:11:30 Europe/Helsinki] PHP Notice:  Trying to get property of non-object in /home/hoteltus/public_html/modules/mod_menu/mod_menu.php on line 18
+[03-Mar-2016 08:11:30 Europe/Helsinki] PHP Notice:  Trying to get property of non-object in /home/hoteltus/public_html/modules/mod_menu/mod_menu.php on line 19
+[03-Mar-2016 08:11:30 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[03-Mar-2016 08:11:30 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[03-Mar-2016 08:11:30 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[03-Mar-2016 08:11:30 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[03-Mar-2016 08:11:30 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 38
+[03-Mar-2016 08:11:30 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[03-Mar-2016 08:11:30 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 38
+[03-Mar-2016 08:11:30 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[03-Mar-2016 08:11:30 Europe/Helsinki] PHP Notice:  Trying to get property of non-object in /home/hoteltus/public_html/modules/mod_menu/helper.php on line 40
+[03-Mar-2016 08:11:30 Europe/Helsinki] PHP Notice:  Trying to get property of non-object in /home/hoteltus/public_html/modules/mod_menu/helper.php on line 45
+[03-Mar-2016 08:11:30 Europe/Helsinki] PHP Notice:  Trying to get property of non-object in /home/hoteltus/public_html/modules/mod_menu/mod_menu.php on line 18
+[03-Mar-2016 08:11:30 Europe/Helsinki] PHP Notice:  Trying to get property of non-object in /home/hoteltus/public_html/modules/mod_menu/mod_menu.php on line 19
+[03-Mar-2016 08:11:30 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[03-Mar-2016 08:11:30 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[03-Mar-2016 08:11:30 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[03-Mar-2016 08:11:30 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[03-Mar-2016 08:11:30 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[03-Mar-2016 08:11:30 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[03-Mar-2016 08:11:30 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[04-Mar-2016 00:49:31 Europe/Helsinki] PHP Notice:  Trying to get property of non-object in /home/hoteltus/public_html/modules/mod_menu/helper.php on line 40
+[04-Mar-2016 00:49:31 Europe/Helsinki] PHP Notice:  Trying to get property of non-object in /home/hoteltus/public_html/modules/mod_menu/helper.php on line 45
+[04-Mar-2016 00:49:31 Europe/Helsinki] PHP Notice:  Trying to get property of non-object in /home/hoteltus/public_html/modules/mod_menu/mod_menu.php on line 18
+[04-Mar-2016 00:49:31 Europe/Helsinki] PHP Notice:  Trying to get property of non-object in /home/hoteltus/public_html/modules/mod_menu/mod_menu.php on line 19
+[04-Mar-2016 00:49:31 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[04-Mar-2016 00:49:31 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[04-Mar-2016 00:49:31 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[04-Mar-2016 00:49:31 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[04-Mar-2016 00:49:31 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 38
+[04-Mar-2016 00:49:31 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[04-Mar-2016 00:49:31 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[04-Mar-2016 00:49:31 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 38
+[04-Mar-2016 00:49:31 Europe/Helsinki] PHP Notice:  Trying to get property of non-object in /home/hoteltus/public_html/modules/mod_menu/helper.php on line 40
+[04-Mar-2016 00:49:31 Europe/Helsinki] PHP Notice:  Trying to get property of non-object in /home/hoteltus/public_html/modules/mod_menu/helper.php on line 45
+[04-Mar-2016 00:49:31 Europe/Helsinki] PHP Notice:  Trying to get property of non-object in /home/hoteltus/public_html/modules/mod_menu/mod_menu.php on line 18
+[04-Mar-2016 00:49:31 Europe/Helsinki] PHP Notice:  Trying to get property of non-object in /home/hoteltus/public_html/modules/mod_menu/mod_menu.php on line 19
+[04-Mar-2016 00:49:31 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[04-Mar-2016 00:49:31 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[04-Mar-2016 00:49:31 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[04-Mar-2016 00:49:31 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[04-Mar-2016 00:49:31 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[04-Mar-2016 00:49:31 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[04-Mar-2016 00:49:31 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[04-Mar-2016 05:04:34 Europe/Helsinki] PHP Notice:  Trying to get property of non-object in /home/hoteltus/public_html/modules/mod_menu/helper.php on line 40
+[04-Mar-2016 05:04:34 Europe/Helsinki] PHP Notice:  Trying to get property of non-object in /home/hoteltus/public_html/modules/mod_menu/helper.php on line 45
+[04-Mar-2016 05:04:34 Europe/Helsinki] PHP Notice:  Trying to get property of non-object in /home/hoteltus/public_html/modules/mod_menu/mod_menu.php on line 18
+[04-Mar-2016 05:04:34 Europe/Helsinki] PHP Notice:  Trying to get property of non-object in /home/hoteltus/public_html/modules/mod_menu/mod_menu.php on line 19
+[04-Mar-2016 05:04:34 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[04-Mar-2016 05:04:34 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[04-Mar-2016 05:04:34 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[04-Mar-2016 05:04:34 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[04-Mar-2016 05:04:34 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 38
+[04-Mar-2016 05:04:34 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[04-Mar-2016 05:04:34 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 38
+[04-Mar-2016 05:04:34 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[04-Mar-2016 05:04:34 Europe/Helsinki] PHP Notice:  Trying to get property of non-object in /home/hoteltus/public_html/modules/mod_menu/helper.php on line 40
+[04-Mar-2016 05:04:34 Europe/Helsinki] PHP Notice:  Trying to get property of non-object in /home/hoteltus/public_html/modules/mod_menu/helper.php on line 45
+[04-Mar-2016 05:04:34 Europe/Helsinki] PHP Notice:  Trying to get property of non-object in /home/hoteltus/public_html/modules/mod_menu/mod_menu.php on line 18
+[04-Mar-2016 05:04:34 Europe/Helsinki] PHP Notice:  Trying to get property of non-object in /home/hoteltus/public_html/modules/mod_menu/mod_menu.php on line 19
+[04-Mar-2016 05:04:34 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[04-Mar-2016 05:04:34 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[04-Mar-2016 05:04:34 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[04-Mar-2016 05:04:34 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[04-Mar-2016 05:04:34 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[04-Mar-2016 05:04:34 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[04-Mar-2016 05:04:34 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[04-Mar-2016 08:28:23 Europe/Helsinki] PHP Notice:  Trying to get property of non-object in /home/hoteltus/public_html/modules/mod_menu/helper.php on line 40
+[04-Mar-2016 08:28:23 Europe/Helsinki] PHP Notice:  Trying to get property of non-object in /home/hoteltus/public_html/modules/mod_menu/helper.php on line 45
+[04-Mar-2016 08:28:23 Europe/Helsinki] PHP Notice:  Trying to get property of non-object in /home/hoteltus/public_html/modules/mod_menu/mod_menu.php on line 18
+[04-Mar-2016 08:28:23 Europe/Helsinki] PHP Notice:  Trying to get property of non-object in /home/hoteltus/public_html/modules/mod_menu/mod_menu.php on line 19
+[04-Mar-2016 08:28:23 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[04-Mar-2016 08:28:23 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[04-Mar-2016 08:28:23 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[04-Mar-2016 08:28:23 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[04-Mar-2016 08:28:23 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 38
+[04-Mar-2016 08:28:23 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[04-Mar-2016 08:28:23 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[04-Mar-2016 08:28:23 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 38
+[04-Mar-2016 08:28:23 Europe/Helsinki] PHP Notice:  Trying to get property of non-object in /home/hoteltus/public_html/modules/mod_menu/helper.php on line 40
+[04-Mar-2016 08:28:23 Europe/Helsinki] PHP Notice:  Trying to get property of non-object in /home/hoteltus/public_html/modules/mod_menu/helper.php on line 45
+[04-Mar-2016 08:28:23 Europe/Helsinki] PHP Notice:  Trying to get property of non-object in /home/hoteltus/public_html/modules/mod_menu/mod_menu.php on line 18
+[04-Mar-2016 08:28:23 Europe/Helsinki] PHP Notice:  Trying to get property of non-object in /home/hoteltus/public_html/modules/mod_menu/mod_menu.php on line 19
+[04-Mar-2016 08:28:23 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[04-Mar-2016 08:28:23 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[04-Mar-2016 08:28:23 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[04-Mar-2016 08:28:23 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[04-Mar-2016 08:28:23 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[04-Mar-2016 08:28:23 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[04-Mar-2016 08:28:23 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[04-Mar-2016 08:28:56 Europe/Helsinki] PHP Notice:  Trying to get property of non-object in /home/hoteltus/public_html/modules/mod_menu/helper.php on line 40
+[04-Mar-2016 08:28:56 Europe/Helsinki] PHP Notice:  Trying to get property of non-object in /home/hoteltus/public_html/modules/mod_menu/helper.php on line 45
+[04-Mar-2016 08:28:56 Europe/Helsinki] PHP Notice:  Trying to get property of non-object in /home/hoteltus/public_html/modules/mod_menu/mod_menu.php on line 18
+[04-Mar-2016 08:28:56 Europe/Helsinki] PHP Notice:  Trying to get property of non-object in /home/hoteltus/public_html/modules/mod_menu/mod_menu.php on line 19
+[04-Mar-2016 08:28:56 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[04-Mar-2016 08:28:56 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[04-Mar-2016 08:28:56 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[04-Mar-2016 08:28:56 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[04-Mar-2016 08:28:56 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 38
+[04-Mar-2016 08:28:56 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[04-Mar-2016 08:28:56 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 38
+[04-Mar-2016 08:28:56 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[04-Mar-2016 08:28:56 Europe/Helsinki] PHP Notice:  Trying to get property of non-object in /home/hoteltus/public_html/modules/mod_menu/helper.php on line 40
+[04-Mar-2016 08:28:56 Europe/Helsinki] PHP Notice:  Trying to get property of non-object in /home/hoteltus/public_html/modules/mod_menu/helper.php on line 45
+[04-Mar-2016 08:28:56 Europe/Helsinki] PHP Notice:  Trying to get property of non-object in /home/hoteltus/public_html/modules/mod_menu/mod_menu.php on line 18
+[04-Mar-2016 08:28:56 Europe/Helsinki] PHP Notice:  Trying to get property of non-object in /home/hoteltus/public_html/modules/mod_menu/mod_menu.php on line 19
+[04-Mar-2016 08:28:56 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[04-Mar-2016 08:28:56 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[04-Mar-2016 08:28:56 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[04-Mar-2016 08:28:56 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[04-Mar-2016 08:28:56 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[04-Mar-2016 08:28:56 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[04-Mar-2016 08:28:56 Europe/Helsinki] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/hoteltus/public_html/templates/tustan/html/mod_menu/default.php on line 26
+[04-Mar-2016 21:40:09 Europe/Helsinki] PHP Warning:  require_once(/home/hoteltus/public_html/components/com_oziogallery3/js/invalid.js) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/hoteltus/public_html/components/com_oziogallery3/lib/loader.php on line 65
+[04-Mar-2016 21:40:09 Europe/Helsinki] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required '/home/hoteltus/public_html/components/com_oziogallery3/js/invalid.js' (include_path='.:/opt/alt/php53/usr/share/pear:/opt/alt/php53/usr/share/php') in /home/hoteltus/public_html/components/com_oziogallery3/lib/loader.php on line 65

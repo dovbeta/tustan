@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="template">
+        <name>tustan</name>
+        <creationDate>2014-06-01</creationDate>
+        <author>Roman Dovbeta</author>
+        <authorEmail>dovbeta@gmail.com</authorEmail>
+        <authorUrl>http://www.brody.com.ua</authorUrl>
+        <copyright>Roman Dovbeta 2014</copyright>
+        <license>GNU/GPL</license>
+        <version>1.0.2</version>
+        <description>Tustan Hotel Template</description>
+        <files>
+                <filename>index.php</filename>
+                <filename>templateDetails.xml</filename>
+                <folder>images</folder>
+                <folder>css</folder>
+				<folder>js</folder>
+        </files>
+        <positions>
+                <position>breadcrumb</position>
+                <position>left</position>
+                <position>right</position>
+                <position>top</position>
+                <position>mainnav</position>
+                <position>header</position>
+                <position>user1</position>
+                <position>user2</position>
+                <position>user3</position>
+                <position>user4</position>
+                <position>aftercontent</position>
+                <position>footer</position>
+        </positions>
+</extension>

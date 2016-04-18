@@ -1,0 +1,55 @@
+/**
+ * $JA#COPYRIGHT$
+ */
+ 
+
+// --------------------------------------------------
+// TYPOGRAPHY
+// --------------------------------------------------
+
+.article-title,
+.article-header h1 {
+  font-size: @T3biggerFontSize;
+  margin-bottom: @T3globalMargin / 2;
+  margin-top: -(@T3globalMargin / 4);
+  line-height: 1.5;
+
+  // title link
+  a {
+    color: @grayDark;
+
+    &:hover, &:focus, &:active {
+      color: @linkColor;
+      text-decoration: none;
+    }
+  }
+} 
+
+.page-header {
+  padding-bottom: @T3globalPadding;
+  margin-bottom: @T3globalMargin;
+}
+
+.page-title, .page-header h1 {
+  font-size: @baseFontSize;
+  color: @grayDark;
+  text-transform: uppercase;
+
+  span {
+    color: @linkColor;
+  }
+}
+
+.componentheading {
+  background: #eee;
+  #gradient > .vertical(@white, #eee);
+  color: #4a4a4a;
+  line-height: normal;
+  padding: @T3moduleTitlePadding @T3moduleTitlePadding;
+  font-family: @headingsFontFamily;
+  font-size: @baseFontSize;
+  text-transform: uppercase;
+  font-weight: 500;
+  text-shadow: 1px 0 0 rgba(0,0,0,0.15);
+  margin: 0 0 @T3globalMargin;
+}

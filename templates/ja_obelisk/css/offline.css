@@ -1,0 +1,220 @@
+/**
+ * @copyright	Copyright (C) 2005 - 2012 Open Source Matters, Inc. All rights reserved.
+ * @license		GNU General Public License version 2 or later; see LICENSE.txt
+ */
+ 
+body {
+  background: #fff;
+  color: #333;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  margin: 0;
+  padding:  100px 0 0;
+}
+
+
+/* Common element
+----------------*/
+img {
+  border: 0 none;
+  margin: 0 auto;
+}
+
+
+/* Form style
+------------- */
+form {
+  margin: auto;
+}
+
+form br {
+  display: none;
+}
+
+form fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+form p {
+  margin: 0 0 15px;
+  padding: 0;
+}
+
+label {
+  color: #777;
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+
+/* Page layout
+-------------- */
+#frame {
+  background: url(../images/grad-w.gif) repeat-x left top #eee;
+  border: 1px solid #e5e5e5;
+  border-radius: 3px;
+  margin: 0 auto;
+  padding: 20px;
+  width: 500px;
+}
+
+/* class styles
+--------------- */
+.offline-image {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.wrap-offline-message {
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+.wrap-offline-message h1 {
+  background: url(../images/logo.png) no-repeat left top;
+  color: #fff;
+  display: block;
+  line-height: normal;
+  margin: auto;
+  padding: 0;
+  height: 36px;
+  line-height: 36px;
+  text-shadow: none;
+  text-align: center;
+  width: 141px;
+  text-indent: -999em;
+}
+
+.wrap-input {
+  overflow: hidden;
+}
+
+#form-login-username {
+  float: left;
+}
+
+#form-login-password {
+  float: right;
+}
+
+#form-login-username input.inputbox,
+#form-login-password input.inputbox {
+  background: #fff;
+  border: 1px solid #ddd;
+  box-shadow: none !important;
+  color: #777666;
+  font-size: 13px;
+  height: 22px;
+  line-height: 22px;
+  padding: 4px 6px;
+  -webkit-appearance: none !important;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  width: 210px;
+}
+
+#form-login-remember input.inputbox {
+  border: none;
+  display: inline-block;
+  margin: 0 3px 0 0;
+  padding: 0;
+  vertical-align: middle;
+}
+
+#form-login-remember label {
+  display: inline-block;
+  font-weight: normal;
+  margin-bottom: 0;
+  vertical-align: middle;
+}
+
+#form-login-username input.inputbox:focus,
+#form-login-password input.inputbox:focus {
+  border: 1px solid #0092d0;
+  box-shadow: none !important;
+  outline: none;
+  -webkit-appearance: none !important;
+  -webkit-box-shadow: none !important;
+}
+
+#form-login .description {
+  font-size: 16px;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 0 #fff;
+}
+
+#form-login input.button {
+  border-radius: 3px;
+  border-width: 1px;
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+  background-color: #26b50e;
+  background-image: -moz-linear-gradient(top,#2ac810,#20990c);
+  background-image: -webkit-gradient(linear,0 0,0 100%,from(#2ac810),to(#20990c));
+  background-image: -webkit-linear-gradient(top,#2ac810,#20990c);
+  background-image: -o-linear-gradient(top,#2ac810,#20990c);
+  background-image: linear-gradient(to bottom,#2ac810,#20990c);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff29c80f', endColorstr='#ff20990c', GradientType=0);
+  border-color: #20990c #20990c #115206;
+  border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  padding: 6px 15px;
+  text-transform: uppercase;
+}
+
+#form-login input.button:hover {
+  background: #20990c;
+  cursor: pointer;
+}
+
+
+/* System message
+----------------- */
+div#system-message .alert {
+  color: #333;
+}
+
+dl#system-message .error {
+  color: #cc3300;
+}
+
+dl#system-message,
+div#system-message .alert {
+  background: #f5f5f5;
+  border-top: solid 1px #e5e5e5;
+  border-radius: 0 0 3px 3px;
+  -moz-border-radius: 0 0 3px 3px;
+  -webkit-border-radius: 0 0 3px 3px;
+  margin-bottom: 0;
+  margin-top: 15px;
+  padding: 10px;
+}
+
+#system-message dd {
+  margin: 0 0 0 10px;
+}
+
+#system-message dt {
+  font-weight: bold;
+}
+
+#system-message ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#system-message ul li {
+  background: url(../images/error.png) no-repeat left 4px;
+  padding: 0 0 0 20px;
+}
+
+#frame img {
+    height: auto;
+    max-width: 100%;
+}

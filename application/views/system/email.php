@@ -1,0 +1,1 @@
+<? $emailadmin = 'hoteltustan@gmail.com'; ?>

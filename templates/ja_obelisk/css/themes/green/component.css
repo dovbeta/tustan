@@ -1,0 +1,177 @@
+
+
+.com_content body,
+.com_mailto body,
+.view-entry body,
+body {
+  background: #fff;
+}
+.com_content body .container,
+.com_mailto body .container,
+.view-entry body .container,
+body .container {
+  background: #fff;
+}
+.com_content body .article-action-icon div,
+.com_mailto body .article-action-icon div,
+.view-entry body .article-action-icon div,
+body .article-action-icon div {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  line-height: 16px;
+  color: #666;
+  text-shadow: 0 1px 1px rgba(255,255,255,0.75);
+  background-color: #f8f8f8;
+  background-image: -moz-linear-gradient(top,#ffffff,#eee);
+  background-image: -webkit-gradient(linear,0 0,0 100%,from(#ffffff),to(#eee));
+  background-image: -webkit-linear-gradient(top,#ffffff,#eee);
+  background-image: -o-linear-gradient(top,#ffffff,#eee);
+  background-image: linear-gradient(to bottom,#ffffff,#eee);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffeeeeee', GradientType=0);
+  border-color: #eee #eee #c8c8c8;
+  border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+  
+  *background-color: #eee;
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  text-align: center;
+  overflow: hidden;
+  font-size: 9px;
+  border: 1px solid #e5e5e5;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+}
+.com_content body .article-action-icon div:hover,
+.com_content body .article-action-icon div:focus,
+.com_content body .article-action-icon div:active,
+.com_content body .article-action-icon div.active,
+.com_content body .article-action-icon div.disabled,
+.com_content body .article-action-icon div[disabled],
+.com_mailto body .article-action-icon div:hover,
+.com_mailto body .article-action-icon div:focus,
+.com_mailto body .article-action-icon div:active,
+.com_mailto body .article-action-icon div.active,
+.com_mailto body .article-action-icon div.disabled,
+.com_mailto body .article-action-icon div[disabled],
+.view-entry body .article-action-icon div:hover,
+.view-entry body .article-action-icon div:focus,
+.view-entry body .article-action-icon div:active,
+.view-entry body .article-action-icon div.active,
+.view-entry body .article-action-icon div.disabled,
+.view-entry body .article-action-icon div[disabled],
+body .article-action-icon div:hover,
+body .article-action-icon div:focus,
+body .article-action-icon div:active,
+body .article-action-icon div.active,
+body .article-action-icon div.disabled,
+body .article-action-icon div[disabled] {
+  color: #666;
+  background-color: #eee;
+  *background-color: #e1e1e1;
+}
+.com_content body .article-action-icon div:active,
+.com_content body .article-action-icon div.active,
+.com_mailto body .article-action-icon div:active,
+.com_mailto body .article-action-icon div.active,
+.view-entry body .article-action-icon div:active,
+.view-entry body .article-action-icon div.active,
+body .article-action-icon div:active,
+body .article-action-icon div.active {
+  background-color: #d5d5d5 \9;
+}
+.com_content body .article-action-icon div a,
+.com_mailto body .article-action-icon div a,
+.view-entry body .article-action-icon div a,
+body .article-action-icon div a {
+  color: #666;
+  display: block;
+}
+.com_content body .article-action-icon div i,
+.com_mailto body .article-action-icon div i,
+.view-entry body .article-action-icon div i,
+body .article-action-icon div i {
+  margin: 0;
+}
+.com_content body .article-action-icon div:hover,
+.com_content body .article-action-icon div:focus,
+.com_mailto body .article-action-icon div:hover,
+.com_mailto body .article-action-icon div:focus,
+.view-entry body .article-action-icon div:hover,
+.view-entry body .article-action-icon div:focus,
+body .article-action-icon div:hover,
+body .article-action-icon div:focus {
+  background: #eee;
+}
+.com_content body .article-action-icon div:hover a,
+.com_content body .article-action-icon div:focus a,
+.com_mailto body .article-action-icon div:hover a,
+.com_mailto body .article-action-icon div:focus a,
+.view-entry body .article-action-icon div:hover a,
+.view-entry body .article-action-icon div:focus a,
+body .article-action-icon div:hover a,
+body .article-action-icon div:focus a {
+  text-decoration: none;
+}
+.com_content body .blog-icons,
+.com_mailto body .blog-icons,
+.view-entry body .blog-icons,
+body .blog-icons {
+  list-style: none;
+  margin: 20px 0 0;
+}
+.com_content body .blog-icons li.print,
+.com_mailto body .blog-icons li.print,
+.view-entry body .blog-icons li.print,
+body .blog-icons li.print {
+  padding-left: 22px;
+  background: url("../../../images/ico/printer.png") no-repeat 0 center;
+}
+.com_content body .item-page .pull-left .item-image,
+.com_mailto body .item-page .pull-left .item-image,
+.view-entry body .item-page .pull-left .item-image,
+body .item-page .pull-left .item-image {
+  margin-right: 10px;
+}
+.com_content body .item-page .pull-right .item-image,
+.com_mailto body .item-page .pull-right .item-image,
+.view-entry body .item-page .pull-right .item-image,
+body .item-page .pull-right .item-image {
+  margin-left: 10px;
+}
+.com_k2.view-item.task-edit .t3-mainbody {
+  padding: 0;
+}
+.com_k2.view-item.task-edit #k2FrontendEditToolbar h2 {
+  background: url("../../../images/system/K2_Logo_105x40_24.png") no-repeat 0 50% !important;
+  display: block;
+}
+.com_k2.view-item.task-edit table.adminFormK2 tr td label,
+.com_k2.view-item.task-edit #k2Tab2 label {
+  display: inline;
+}
+.com_k2.view-item.task-edit input[type="radio"],
+.com_k2.view-item.task-edit input[type="checkbox"] {
+  margin-top: 0;
+}
+.com_k2.view-item.task-edit ul.tags {
+  line-height: auto;
+}
+.com_k2.view-item.task-edit ul.tags li.tagAdd input {
+  margin-bottom: 0;
+}
+.com_k2.view-item.task-edit a.modal {
+  background: none;
+  border: 0;
+  margin: 0;
+  position: static;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+.com_k2.view-item.task-edit div#k2Frontend h3,
+.com_k2.view-item.task-edit div#k2Frontend legend {
+  line-height: normal;
+}
+

@@ -1,0 +1,1 @@
+<img src='/images/button_separator_norm.png' class=menu_separator id='menu_separator_0'><div class='menu_item' onmouseover='mouseOver(1)' onmouseout='mouseLeave(1)'><a href='/test/lang/1'>тест</a></div><img src='/images/button_separator_norm.png' class='menu_separator' id='menu_separator_2'>

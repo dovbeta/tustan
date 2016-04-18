@@ -1,0 +1,60 @@
+/**
+ * $JA#COPYRIGHT$
+ */
+
+
+body {
+  background: url("@{T3ThemeImagePath}/snow.png") #8ed3f1;
+  .reset-filter();
+}
+
+.t3-mainnav:after {    
+  background: url("@{T3ThemeImagePath}/snow-head.png") repeat-x center bottom;
+  content: "";
+  display: block;
+  height: 152px;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+
+.t3-navhelper, .white-background .t3-navhelper {
+  padding-top: 36px;
+  margin-top: -36px;
+  position: relative;
+  z-index: 2;
+  background: url("@{T3ThemeImagePath}/navhelper.png") repeat-x center bottom;
+}
+
+
+.t3-footer {
+  padding-bottom: 365px;
+  background: url("@{T3ThemeImagePath}/footer.png") repeat-x center bottom;
+}
+
+.t3-slideshow {    
+  background: url("@{T3ThemeImagePath}/snow-head.png") repeat-x center bottom;
+}
+#ja-like{
+  position: absolute;
+  top: 0px;
+  left: -5500px;
+  }
+html {
+   body .ui-stars-star a {
+      background: url("@{T3ThemeImagePath}/transparent_star.png") no-repeat 0 1px !important;
+      width: 12px !important;
+      height: 12px !important;
+    }
+    
+    body .ui-stars-star-hover a,
+    body .ui-stars-star-hover a:hover{
+      background: url("@{T3ThemeImagePath}/transparent_star.png") no-repeat 0 -9px !important;
+    }
+
+    .ja-tabswrap {
+      #ja-bulletin ul li a:hover {
+        color: @T3primaryColor;
+      }
+    }
+}

@@ -1,0 +1,262 @@
+/**
+ * $JA#COPYRIGHT$
+ */
+
+// ---------------------------------------------------------
+// RESPONSIVE NAVIFATION FOR MOBILE
+// ---------------------------------------------------------
+@media (max-width: @navbarCollapseWidth) {
+
+
+  // -------------------------------------------------------
+  // NAVIGATIONS ELEMENTS
+  // -------------------------------------------------------
+
+  // BREADCRUMBS
+  // -------------------------------------------------------
+  .t3-navhelper {
+    margin-left: -20px;
+    margin-right: -20px;
+  }
+
+
+
+  // -------------------------------------------------------
+  //  JA MAIN MENU
+  // -------------------------------------------------------
+
+  .t3-mainnav {
+    background: @black;
+    border-top: 1px solid darken(@navbarBackground, 5%);
+    height: auto;
+    margin-left: -20px;
+    margin-right: -20px;
+
+    // Toggle Button
+    //.navbar .btn-navbar {
+      //margin-bottom: (@T3globalMargin / 2);
+    //}
+
+    &:after {
+      display: none;
+    }
+
+    .navbar-inner {
+      min-height: 30px;
+    }
+    
+    .navbar .btn-navbar:hover {
+      cursor: pointer;
+    }
+
+
+    // COLLAPSIBLE NAVBAR
+    // ----------------------------------------------------
+
+    // The nav
+    .nav-collapse {
+      margin-top: (@T3globalMargin / 2);
+      background: @black;
+    }
+
+    .nav-collapse .nav {
+      margin: 0;
+    }
+
+    .nav-collapse .nav > li {
+
+    }
+
+    .nav-collapse .nav > li > a {
+      border-bottom: solid 1px #333;
+      margin-bottom: 0;
+      font-size: @T3smallerFontSize;
+      text-transform: uppercase;
+      display: block;
+      margin-right: 0;
+    }
+
+    .nav-collapse .nav > li > .separator {
+      border-bottom: 1px solid #333333;
+      border-radius: 0 0 0 0;
+      font-family: 'Roboto',sans-serif;
+      font-weight: bold;
+      padding: 10px 20px;
+      text-shadow: none; 
+      display: block;   
+      margin-right: 0;
+    }
+
+    // Nav and dropdown links in navbar
+    // -------------------------------
+    .nav-collapse .nav > li > a,
+    .nav-collapse .dropdown-menu a {
+      border-bottom: solid 1px #333;
+      padding: (@T3globalPadding / 2) @T3globalPadding;
+      font-weight: bold;
+      //color: @navbarLinkColor;
+      text-shadow: none;
+      font-family: @headingsFontFamily;
+      .border-radius(0);
+    }
+
+    .nav-collapse .dropdown-menu li + li a {
+      margin-bottom: 0;
+    }
+
+    // Hover state
+    .nav-collapse .nav > li > a:hover {
+      background-color: @grayDarker;
+      background-image: none;
+      color: @white;
+      .reset-filter();
+    }
+
+
+    // dropdown links
+    // --------------
+    .nav-collapse .dropdown-menu a {
+      border-top: 1px solid darken(@navbarBackground, 5%);
+      border-bottom: 0;
+      font-weight: normal;
+      padding: (@T3globalPadding / 2) @T3globalPadding;
+    }
+
+
+    // Hover state
+    .nav-collapse .dropdown-menu a:hover {
+      background-color: @dropdownLinkBackgroundHover;
+      background-image: none;
+      .reset-filter();
+    }
+
+
+    // Dropdowns in the navbar
+    // -----------------------
+    .nav-collapse .dropdown-menu {
+      margin: 0;
+      padding: 0;
+      background-color: @grayDark;
+      border: none;
+      .border-radius(0);
+      .box-shadow(none);
+    }
+    
+    
+    // Full width when fixed
+    // ---------------------
+    &.navbar-collapse-fixed-top,
+    &.navbar-collapse-fixed-bottom {
+      margin: 0;
+
+      .nav-collapse {
+        margin: 0;
+      }
+    }
+    // End
+  }
+
+
+  // -------------------------------------------------------
+  //  JA MAIN MENU (Inverted)
+  // -------------------------------------------------------
+
+  .T3Navbar() when (@T3NavbarInverted = 1) {
+
+    // Begin: Mixin Styling
+    background: @grayDark;
+    border-top: 1px solid @grayDark;
+
+    // Toggle Button
+    .navbar .btn-navbar {
+    }
+
+
+    // COLLAPSIBLE NAVBAR
+    // ----------------------------------------------------
+
+    // The nav
+    .nav-collapse {
+      background: @grayDarker;
+      color: @grayLighter;
+    }
+
+
+    // Nav and dropdown links in navbar
+    // -------------------------------
+    .nav-collapse .nav > li > a,
+    .nav-collapse .dropdown-menu a {
+      border-bottom: 1px solid @gray;
+    }
+
+    // Hover state
+    .nav-collapse .nav > li > a:hover,
+    .nav-collapse .dropdown-menu a:hover {
+      background-color: @dropdownLinkBackgroundHover;
+    }
+
+
+    // dropdown links
+    // --------------
+    .nav-collapse .dropdown-menu a {
+      border-top: 1px solid @gray;
+      border-bottom: 0;
+    }
+
+
+    // Hover state
+    .nav-collapse .dropdown-menu a:hover {
+      background-color: @dropdownLinkBackgroundHover;
+    }
+
+
+    // Dropdowns in the navbar
+    // -----------------------
+    .nav-collapse .dropdown-menu {
+      background-color: @grayDark;
+    }
+
+  // End: Mixin Styling
+  }
+
+  .T3Navbar() when (@T3NavbarInverted = 0) {
+    // Leave blank here because we will use the default style.
+  }
+
+  // Calling the styles
+  .t3-mainnav {
+    .T3Navbar();
+  }
+
+
+
+  // ----------------------------------------------------
+  // MISC
+  // ----------------------------------------------------
+  .t3-mainnav .navbar .nav > li > .dropdown-menu {
+    // Hiding Menu and Divider in nav-collapse
+    &:before, &:after, .divider {
+      display: none;
+    }
+  }
+
+  .t3-mainnav .customization {
+    display: none;
+  }
+
+  // End Responsive
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .t3-mainnav .navbar .nav > li > a {
+    padding: (@T3globalPadding/2) (@T3globalPadding/2);
+  }
+}
+
+@media (max-width: 767px) {
+  .t3-navhelper, .white-background .t3-navhelper {
+    margin: 0;
+  }
+
+}
+

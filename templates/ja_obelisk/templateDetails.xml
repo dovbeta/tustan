@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.6//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension version="2.5" type="template" method="upgrade" client="site">
+	<name>ja_obelisk</name>
+	<version>1.0.0</version>
+	<creationDate>07 November 2013</creationDate>
+	<author>JoomlArt.com</author>
+	<authorEmail>webmaster@joomlart.com</authorEmail>
+	<authorUrl>http://www.t3-framework.org</authorUrl>
+	<copyright>Copyright (C), J.O.O.M Solutions Co., Ltd. All Rights Reserved.</copyright>
+	<license>license GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
+	<t3>
+		<base>base</base>
+	</t3>
+	<description>
+		<![CDATA[
+			<div class="overview-header">
+			<h2>
+			  <small style="display: block;">Responsive Joomla movie template for Joomla 2.5. and Joomla 3 - <strong>JA Obelisk</strong>.</small>
+			</h2>
+			<p>A dedicated responsive Joomla template for any movie lover, featuring a complete theme for Christmas as a bonus point,
+			Structured with clean and well organized blocks & modules, this Joomla movie template will help you deliver your content in the most professional and impressive way.</p>
+			<p>Built on the robust T3 Framework with Bootstrap at core, this template is fullly responsive and RTL language layout compatible.</p>
+			<p><strong>JA Obelisk</strong> features EasyBlog, K2, Off-Canvas navigation for mobile and tablet and a number of bonus pages</p>
+		  </div>
+				]]>
+	</description>
+	<files>
+		<filename>component.php</filename>
+		<filename>favicon.ico</filename>
+		<filename>index.html</filename>
+		<filename>index.php</filename>
+		<filename>thememagic.xml</filename>
+		<filename>templateInfo.php</filename>
+		<filename>template_preview.png</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>templateHelper.php</filename>
+		<filename>offline.php</filename>
+		<filename>error.php</filename>
+		<folder>etc</folder>
+		<folder>fonts</folder>
+		<folder>css</folder>
+		<folder>js</folder>
+		<folder>less</folder>
+		<folder>language</folder>
+		<folder>images</folder>
+		<folder>tpls</folder>
+		<folder>html</folder>
+	</files>
+	
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.tpl_ja_obelisk.ini</language>
+		<language tag="en-GB">en-GB/en-GB.tpl_ja_obelisk.sys.ini</language>
+	</languages>
+
+	<positions>
+		<position>languageswitcherload</position>
+		<position>head-search</position>
+		<position>mainnav</position>
+		<position>navhelper</position>
+		<position>breadcrumbs</position>
+		<position>sidebar-1</position>
+		<position>sidebar-2</position>
+		<position>masshead</position>
+		<position>footer</position>
+		<position>position-0</position>
+		<position>position-1</position>
+		<position>position-2</position>
+		<position>position-4</position>
+		<position>position-5</position>
+		<position>footer-1</position>
+		<position>footer-2</position>
+		<position>footer-3</position>
+		<position>footer-4</position>
+		<position>footer-banner</position>
+		<position>head-login</position>
+		<position>ja-obelisk-accordion</position>
+		<position>ja-obelisk-accordion-joomla</position>
+		<position>ja-obelisk-topmovie</position>
+		<position>ja-obelisk-topmovie-joomla</position>
+		<position>jacontentslidersocial</position>
+		<position>slider</position>
+		<position>slideshow</position>
+		<position>socialheader</position>
+		<position>debug</position>
+		<position>slider</position>
+		<position>footer-banner</position>
+	</positions>
+
+	<config>
+		<fields name="params" addfieldpath="/plugins/system/t3/includes/depend">
+
+			<!-- Sample for add or disable template parameters -->
+			<!--fieldset name="menu_params" label="T3_PARAMS_MEGAMENU">
+				<field name="group_disable" type="t3depend" function="@group">
+					<option for="menu_as_bg" value="no">menu_as_bg</option>
+				</field>
+			</fieldset-->
+            <fieldset name="obelisk_params">
+                <field name="tpl_userpage_mid" type="menuitem" default=""
+                       label="TPL_PARAM_USERPAGE_MENUITEM_LABEL"
+                       description="TPL_PARAM_USERPAGE_MENUITEM_DESC">
+					   <option value="">TPL_NO_MENU_ITEMS</option>
+				</field>	   
+				<field name="tpl_k2_search_mid" type="menuitem" default=""
+                       label="TPL_PARAM_K2_FILTER_MENUITEM_LABEL"
+                       description="TPL_PARAM_K2_FILTER_MENUITEM_DESC">	 
+						<option value="">TPL_NO_MENU_ITEMS</option>
+				</field>		
+            </fieldset>
+		</fields>
+	</config>
+
+	<updateservers>
+		<server type="collection">http://update.joomlart.com/service/tracking/list.xml</server>
+	</updateservers>	
+
+</extension>

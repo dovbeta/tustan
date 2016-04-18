@@ -1,0 +1,61 @@
+
+
+.ja-accordion ul.ja-accordion-containner li .ja-accordion-title {
+  background: #444;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-bottom: 1px solid #5e5e5e;
+}
+.ja-accordion ul.ja-accordion-containner li .ja-accordion-title h3 {
+  background: url("../../../images/ico/collapse.png") no-repeat right center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  line-height: 20px;
+  color: #fff;
+  margin: 0;
+  padding-right: 22px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.ja-accordion ul.ja-accordion-containner li .ja-accordion-title.active {
+  background-color: #8c97ad;
+  background-image: -moz-linear-gradient(top,#98a2b5,#7a87a0);
+  background-image: -webkit-gradient(linear,0 0,0 100%,from(#98a2b5),to(#7a87a0));
+  background-image: -webkit-linear-gradient(top,#98a2b5,#7a87a0);
+  background-image: -o-linear-gradient(top,#98a2b5,#7a87a0);
+  background-image: linear-gradient(to bottom,#98a2b5,#7a87a0);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff97a1b5', endColorstr='#ff7a87a0', GradientType=0);
+  border-bottom: 0;
+}
+.ja-accordion ul.ja-accordion-containner li .ja-accordion-title.active h3 {
+  background-image: url("../../../images/ico/expand.png");
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+.ja-accordion ul.ja-accordion-containner li div.ja-accordion-content {
+  background: #7a87a0;
+  color: #fff;
+  padding: 10px 20px;
+}
+.ja-accordion ul.ja-accordion-containner li div.ja-accordion-content ul {
+  margin: 0;
+}
+.ja-accordion ul.ja-accordion-containner li div.ja-accordion-content li {
+  padding: 10px 0;
+  list-style: none;
+  line-height: 18px;
+  font-size: 11px;
+  border-top: 1px solid #8994ab;
+  font-weight: bold;
+}
+.ja-accordion ul.ja-accordion-containner li div.ja-accordion-content li:last-child {
+  margin-bottom: 10px;
+}
+.ja-accordion ul.ja-accordion-containner li div.ja-accordion-content ul li,
+.ja-accordion ul.ja-accordion-containner li div.ja-accordion-content a {
+  color: #fff;
+}
+

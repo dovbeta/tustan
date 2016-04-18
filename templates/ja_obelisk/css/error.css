@@ -1,0 +1,59 @@
+html, body {
+  height: 100%;
+  min-height: 100%;
+}
+
+body {
+  background: url(../images/page-bg.jpg) no-repeat left top #000;
+  color: #ccc;
+  font-family: sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* Common style
+--------------- */
+a {
+  color: #0092d0;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus,
+a:active {
+  color: #0092d0;
+  text-decoration: underline;
+}
+
+.page-wrap {
+  background: url(../images/pattern.png);
+  min-height: 100%;
+  overflow: hidden;
+}
+
+div.error {
+  border-radius: 5px;
+  margin: 150px auto 0;
+  padding: 0 0 0 150px;
+  width: 800px;
+}
+
+.error-code {
+  color: #fff;
+  font-size: 150px;
+  font-weight: bold;
+  line-height: 1;
+}
+ 
+.error-message {
+  color: #fff;
+  font-size: 50px;
+  line-height: 1;
+  margin-bottom: 20px;
+}
+
+.error-body {
+  color: #666;
+}

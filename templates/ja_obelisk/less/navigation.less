@@ -1,0 +1,315 @@
+/**
+ * $JA#COPYRIGHT$
+ */
+
+// -------------------------------------------------------
+//  JA MAIN MENU
+// -------------------------------------------------------
+.t3-mainnav {
+  background: darken(@grayDarker, 5%);
+  border-top: 0;
+  border-bottom: 0;
+
+  .navbar {
+    color: @navbarText;
+    margin-bottom: 0;
+    margin-top: 0;
+    background: none;
+  }
+
+  .navbar-inner {
+    min-height: @navbarHeight;
+    padding:  0;
+    background: transparent;
+    border: 0;
+    border-left: 0;
+    .border-radius(0);
+    .box-shadow(none);
+    .reset-filter();
+  }
+
+
+
+  // NAVBAR
+  // -------------------------------------------------------
+  .navbar .nav {
+    margin: 0;
+  }
+
+
+  // Links
+  // -----
+  .navbar .nav > li > a,
+  .navbar .nav > li > .separator {
+    border-top: 0;
+    border-right: 0;
+    padding: ((@navbarHeight - @T3globalPadding) / 2) 0;
+    margin-right: @T3globalMargin*1.5;
+    text-shadow: none;
+    font-size: @T3smallerFontSize;
+    text-transform: uppercase;
+    font-family: @headingsFontFamily;
+    font-weight: 700;
+    color: @grayLight;
+    border-bottom: 2px solid transparent;
+    display: inline-block;
+  }
+
+  // Hover
+  .navbar .nav > li > a:focus,
+  .navbar .nav > li > a:hover {
+    text-shadow: none;
+    outline: none;
+    color: @white;
+    background: none;
+  }
+
+  // Active nav items
+  .navbar .nav > .active > a,
+  .navbar .nav > .active > a:hover,
+  .navbar .nav > .active > a:focus,
+  .navbar .nav > .active > .separator  {
+    background: none;
+    color: @white;
+    text-shadow: none;
+    outline: none;
+    border-bottom: 2px solid lighten(@T3primaryColor, 10%);
+    .box-shadow (none);
+  }
+
+  // Toggle Button
+  // -------------
+
+  // Navbar button for toggling navbar items in responsive layouts
+  // These definitions need to come after '.navbar .btn'
+  .navbar .btn-navbar {
+    float: left;
+    padding: 5px 10px;
+    margin: 4px @T3globalMargin 4px;
+    .buttonBackground(darken(@navbarBackgroundHighlight, 5%), darken(@navbarBackground, 5%));
+    .box-shadow(~"inset 0 1px 0 rgba(255,255,255,.1), 0 1px 0 rgba(255,255,255,.075)");
+    
+    // The icon
+    [class^="icon-"],
+    [class^=" icon-"] {
+      color: @navbarText;
+      text-shadow: none;
+    }
+  }
+
+
+  // DROPDOWN
+  // -------------------------------------------------------
+
+  // Dropdown arrow/caret
+  // --------------------
+  .caret {
+  }
+
+  // Place the caret
+  .dropdown .caret {
+    margin-left: 5px;
+  }
+
+
+  // The dropdown menu
+  // -----------------
+  .dropdown-menu {
+    .box-shadow(0 5px 10px rgba(0,0,0,.2));
+    padding: @T3globalPadding/2 @T3globalPadding;
+
+    // Links within the dropdown menu
+    li > a {
+      border-top: 1px solid @T3borderColor;
+      padding: 10px 0px;
+      text-shadow: none;
+    }
+  }
+
+  // No border top on the first
+  .dropdown-menu li:first-child > a {
+    border-top: 0;
+  }
+
+  // Hide the Top arrow of the dropdown menu.
+  // See bootstrap/navbar.less or comment these line if you want to show it again.
+  .navbar .nav > li > .dropdown-menu {
+    &:before {
+      display: none;
+    }
+    &:after {
+      display: none;
+    }
+  }
+
+
+  // Hover state
+  // -----------
+  .dropdown-menu li > a:hover,
+  .dropdown-menu li > a:focus,
+  .dropdown-submenu:hover > a {
+    background: none;
+    color: @linkColor;
+  }
+
+
+  // Active state
+  // ------------
+  .dropdown-menu .active > a,
+  .dropdown-menu .active > a:hover {
+    background: none;
+    color: @linkColor;
+  }
+
+
+  // Disabled state
+  // --------------
+  .dropdown-menu .disabled > a,
+  .dropdown-menu .disabled > a:hover {
+    color: @grayLight;
+  }
+
+  .dropdown-menu .disabled > a:hover {
+    background-color: transparent;
+  }
+
+
+  // Open State
+  // ----------
+  .nav li.dropdown.open > .dropdown-toggle,
+  .nav li.dropdown.open > .separator {
+    color: @white;
+    background: none;
+    border-bottom: 2px solid lighten(@T3primaryColor, 10%);
+  }
+
+  // Active Open
+  .nav li.dropdown.active > .dropdown-toggle,
+  .nav li.dropdown.open.active > .dropdown-toggle {
+    color: @dropdownLinkColorActive;
+    background: none;
+  }
+
+  // The Caret
+  .nav li.dropdown > .dropdown-toggle .caret {
+
+  }
+
+  .nav li.dropdown.open > .dropdown-toggle .caret,
+  .nav li.dropdown.active > .dropdown-toggle .caret,
+  .nav li.dropdown.open.active > .dropdown-toggle .caret {
+  }
+
+  .navbar .nav .dropdown-toggle .caret {
+    margin-top: 5px;
+  }
+
+
+  // Dropdown Sub menus
+  // ------------------
+  .dropdown-submenu > .dropdown-menu {
+  }
+
+  .dropdown-submenu > a:after {
+
+  }
+
+  .dropdown-submenu:hover > a:after {
+  }
+  // End 
+}
+
+
+
+// ------------------------------------------------------
+// JA MAIN MENU (Inverted)
+// -------------------------------------------------------
+.T3Navbar() when (@T3NavbarInverted = 1) {
+
+  // Begin: Mixin Styling
+  #gradient > .vertical(@grayDark, @grayDarker);
+  border-top: 1px solid @grayDark;
+  border-bottom: 1px solid @grayDark;
+  
+  .navbar {
+    color: @grayLighter;
+  }
+
+  .navbar-inner {
+    border-left: 1px solid @grayDark;
+  }
+
+
+  // NAVBAR
+  // -------------------------------------------------------
+
+  // Links
+  // -----
+  .navbar .nav > li > a {
+    color: @grayLighter;
+    border-right: 1px solid @grayDark;
+  }
+
+  // Hover
+  .navbar .nav > li > a:focus,
+  .navbar .nav > li > a:hover {
+    background-color: transparent;
+  }
+
+  // Active nav items
+  .navbar .nav > .active > a,
+  .navbar .nav > .active > a:hover,
+  .navbar .nav > .active > a:focus {
+    color: @white;
+  }
+
+
+  // DROPDOWN
+  // -------------------------------------------------------
+
+  // The dropdown menu
+  // -----------------
+  .dropdown-menu {
+    background-color: lighten(@grayDark, 10%);
+    border: 1px solid lighten(@grayDark, 20%);
+
+    // Links within the dropdown menu
+    li > a {
+    color: @grayLighter;
+    border-top: 1px solid lighten(@grayDark, 20%);
+    }
+  }
+
+  // Open dropdown
+  .nav li.dropdown.open > .dropdown-toggle,
+  .nav li.dropdown.active > .dropdown-toggle,
+  .nav li.dropdown.open.active > .dropdown-toggle {
+    background: none;
+  }
+  // End: Mixin Styling
+}
+
+
+// Pagination
+// ----------------------------------------------
+.dark-background {
+  .pagination ul > li > a, .pagination ul > li > span {
+    background: @T3primaryColor;
+    #gradient > .vertical(lighten(@T3primaryColor, 10%), @T3primaryColor);
+    color: @white;
+    border-color: @grayDarker;
+
+    &:hover, &:focus {
+      background: @T3primaryColor;
+    }
+  }
+
+  .pagination ul > .disabled > span, 
+  .pagination ul > .disabled > a, 
+  .pagination ul > .disabled > a:hover, 
+  .pagination ul > .disabled > a:focus {
+    background: @T3moduleTitleBackground;
+    #gradient > .vertical(lighten(@T3moduleTitleBackground, 10%), @T3moduleTitleBackground);
+    color: @T3moduleTitleColor;
+  }
+}

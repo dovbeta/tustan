@@ -1,0 +1,181 @@
+
+
+ul.ja-login li a.register-switch,
+ul.ja-login li a.login-switch {
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  transition: none;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+ul.ja-login li #ja-user-login,
+ul.ja-login li #ja-user-register {
+  min-width: 220px;
+  padding: 20px;
+  text-align: left;
+  left: auto;
+  right: 1px;
+  top: 30px;
+  font-size: 11px;
+  list-style: none;
+  border: 0;
+}
+ul.ja-login li #ja-user-login .btn,
+ul.ja-login li #ja-user-login .button,
+ul.ja-login li #ja-user-login button,
+ul.ja-login li #ja-user-register .btn,
+ul.ja-login li #ja-user-register .button,
+ul.ja-login li #ja-user-register button {
+  padding: 6.66666666667px 10px;
+  font-size: 11px;
+}
+ul.ja-login li #ja-user-login form#member-registration input,
+ul.ja-login li #ja-user-register form#member-registration input {
+  background-color: #eee;
+}
+ul.ja-login li #ja-user-login form#member-registration input:hover,
+ul.ja-login li #ja-user-login form#member-registration input:focus,
+ul.ja-login li #ja-user-login form#member-registration input:active,
+ul.ja-login li #ja-user-register form#member-registration input:hover,
+ul.ja-login li #ja-user-register form#member-registration input:focus,
+ul.ja-login li #ja-user-register form#member-registration input:active {
+  background-color: #fff;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+ul.ja-login li #ja-user-login form,
+ul.ja-login li #ja-user-register form {
+  margin: 0;
+}
+ul.ja-login li #ja-user-login form input,
+ul.ja-login li #ja-user-register form input {
+  font-size: 11px;
+}
+ul.ja-login li #ja-user-login form #modlgn-username,
+ul.ja-login li #ja-user-login form #modlgn-passwd,
+ul.ja-login li #ja-user-register form #modlgn-username,
+ul.ja-login li #ja-user-register form #modlgn-passwd {
+  background-image: url("../../../images/ico/ico-login.png");
+  background-position: 5px center;
+  background-repeat: no-repeat;
+  background-color: #eee;
+  padding-left: 20px;
+  -webkit-transition: all .2s linear;
+  -moz-transition: all .2s linear;
+  -o-transition: all .2s linear;
+  transition: all .2s linear;
+}
+ul.ja-login li #ja-user-login form #modlgn-username:hover,
+ul.ja-login li #ja-user-login form #modlgn-username:focus,
+ul.ja-login li #ja-user-login form #modlgn-username:active,
+ul.ja-login li #ja-user-login form #modlgn-passwd:hover,
+ul.ja-login li #ja-user-login form #modlgn-passwd:focus,
+ul.ja-login li #ja-user-login form #modlgn-passwd:active,
+ul.ja-login li #ja-user-register form #modlgn-username:hover,
+ul.ja-login li #ja-user-register form #modlgn-username:focus,
+ul.ja-login li #ja-user-register form #modlgn-username:active,
+ul.ja-login li #ja-user-register form #modlgn-passwd:hover,
+ul.ja-login li #ja-user-register form #modlgn-passwd:focus,
+ul.ja-login li #ja-user-register form #modlgn-passwd:active {
+  background-color: #fff;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  background-image: url("../../../images/ico/ico-login.png");
+}
+ul.ja-login li #ja-user-login form #modlgn-passwd,
+ul.ja-login li #ja-user-register form #modlgn-passwd {
+  background-image: url("../../../images/ico/ico-password.png");
+}
+ul.ja-login li #ja-user-login form #modlgn-passwd:hover,
+ul.ja-login li #ja-user-login form #modlgn-passwd:focus,
+ul.ja-login li #ja-user-login form #modlgn-passwd:active,
+ul.ja-login li #ja-user-register form #modlgn-passwd:hover,
+ul.ja-login li #ja-user-register form #modlgn-passwd:focus,
+ul.ja-login li #ja-user-register form #modlgn-passwd:active {
+  background-color: #fff;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  background-image: url("../../../images/ico/ico-password.png");
+}
+ul.ja-login li #ja-user-login form em,
+ul.ja-login li #ja-user-register form em {
+  font-style: normal;
+  font-weight: normal;
+}
+ul.ja-login li #ja-user-login .form-login-meta,
+ul.ja-login li #ja-user-register .form-login-meta {
+  margin-top: 10px;
+}
+ul.ja-login li #ja-user-login .form-login-meta p,
+ul.ja-login li #ja-user-register .form-login-meta p {
+  margin: 0;
+}
+ul.ja-login li #ja-user-login .form-login-meta p a,
+ul.ja-login li #ja-user-register .form-login-meta p a {
+  color: #444;
+}
+ul.ja-login li #ja-user-login .form-login-meta p a:hover,
+ul.ja-login li #ja-user-register .form-login-meta p a:hover {
+  color: #7a87a0;
+  text-decoration: none;
+}
+ul.ja-login li #ja-user-register {
+  min-width: 360px;
+}
+#login-form input[type="text"],
+#login-form input[type="password"] {
+  width: 87%;
+}
+#member-registration input[type="text"],
+#member-registration input[type="password"],
+#member-registration input[type="email"] {
+  width: 90%;
+}
+ul.ja-login #form-login-remember .inputbox {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+#login-form #ja-user-login form {
+  margin: 0;
+  padding: 0;
+}
+#login-form label,
+#member-registration label {
+  font-size: 11px;
+  margin: 0;
+  color: #444;
+}
+.ja-login li.dropdown .btn {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+.ja-login li.dropdown .dropdown-menu {
+  background: #fff;
+  min-width: 220px;
+  padding: 20px;
+  text-align: left;
+  left: auto;
+  right: 1px;
+  top: 30px;
+  font-size: 11px;
+  list-style: none;
+  border: 0;
+  -webkit-box-shadow: 0 3px 3px rgba(0,0,0,0.3);
+  -moz-box-shadow: 0 3px 3px rgba(0,0,0,0.3);
+  box-shadow: 0 3px 3px rgba(0,0,0,0.3);
+}
+.ja-login li.dropdown .dropdown-menu .logout-button {
+  margin-top: 10px;
+}
+.ja-login li.dropdown.open a.btn {
+  background: #fff;
+  color: #444;
+  text-shadow: none;
+}
+

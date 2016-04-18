@@ -1,0 +1,1 @@
+<a href='/lang/index/ua'><img class='lang' src='/images/lang/ua4.png' alt='' width='20px' height='15px'>UA</a> | <a href='/lang/index/ru'><img class='lang' src='/images/lang/ru1.png' alt='' width='20px' height='15px'>RU</a> | <a href='/lang/index/en'><img class='lang' src='/images/lang/en.png' alt='' width='20px' height='15px'>EN</a>
